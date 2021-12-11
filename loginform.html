@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>登录</h1>
+        注：开发匆忙，我们只保证网站的数据和隐私安全性，及正常使用状况下的可用性。至于非正常使用下出现的 bug，你可以选择发送到 TSS@mail.tmysam.top。当然，不一定得到解决。<br>
+        <form action="login.php" method="post">
+            ID[非昵称]<input type="text" name="username"><br>
+            密码<input type="password" name="passcode"><br>
+            验证码<input type="text" name='authcode' value='' class="input-box" style="width:5%;"/><a href="javascript:void(0)" onclick="document.getElementById('captcha_img').src='./captcha.php?r='+Math.random()"><img id="captcha_img" border='1' src='./captcha.php?r=00' style="width:100px; height:30px" /></a><br>
+            <input type="submit" value="确认">
+        </form>
+        若你尚未注册 请<a href="registerform.html">注册</a>
+    </body>
+</html>
