@@ -12,6 +12,9 @@ if(!isset($_SESSION["id"])){
 
 ?>
 <html>
+    <head>
+        <title>TOIonline</title>
+    </head>
     <body>
     <?php 
 if($islogged){

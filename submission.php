@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <html>
 <head>
-<title>提交程序</title>
+<title>TOIonline - 提交程序</title>
 </head>
 <?php
 error_reporting(E_ALL || ~E_NOTICE);
